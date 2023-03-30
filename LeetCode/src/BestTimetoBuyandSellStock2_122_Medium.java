@@ -1,4 +1,4 @@
-public class BestTimetoBuyandSellStock2_Medium {
+public class BestTimetoBuyandSellStock2_122_Medium {
     public static int maxProfit(int[] prices) {
         if (prices.length == 0 || prices == null) {
             return 0;
@@ -16,7 +16,7 @@ public class BestTimetoBuyandSellStock2_Medium {
 
     public static void main(String[] args) {
         int[] prices = {1, 2, 3, 4, 5};
-        var result = new BestTimetoBuyandSellStock2_Medium().maxProfit(prices);
+        var result = new BestTimetoBuyandSellStock2_122_Medium().maxProfit(prices);
         System.out.println(result);
     }
 }
