@@ -1,5 +1,29 @@
 public class IntegertoRoman_12_Medium {
     //https://leetcode.com/problems/integer-to-roman/ ->Problem
+
+    private static final String[] roman = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+    private static final Integer[] roamanVal = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+
+    public static String intToRoman(int num) {
+        var result = new StringBuilder();
+        for (int i = 0; i < roamanVal.length; ) {
+            if (num >= roamanVal[i]) {
+                result.append(roman[i]);
+                num -= roamanVal[i];
+            } else {
+                i++;
+            }
+        }
+        return result.toString();
+    }
+
+    public static void main(String[] args) {
+        var result = new IntegertoRoman_12_Medium().intToRoman(800);
+        System.out.println(result);
+    }
+}
+
+/*
     public static String intToRoman(int num) {
         StringBuilder result = new StringBuilder();
         int[] arrNumber = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
@@ -14,12 +38,7 @@ public class IntegertoRoman_12_Medium {
         }
         return result.toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(intToRoman(9));
-
-    }
-}
+* */
 /*Farklı bir çözüm
 HashMap<Integer, Character> hashMap = new HashMap<>();
         hashMap.put(1, 'I');
