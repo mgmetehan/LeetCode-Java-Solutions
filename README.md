@@ -2,12 +2,12 @@
 
 This repo contains solutions to Leetcode questions. All questions are solved using Java.
 
-## Canl? Yay?n ??z?mleri
+## Canli Yayin Cozumleri
 
-Canl? yay?nlarda ??zd???m sorular?n videolar?n? YouTube'da "FolksDev" kanal?nda bulabilirsiniz. A?a??daki linklerden canl? yay?n ??z?mlerine ula?abilirsiniz:
+Canli yayinlarda cozdugum sorularin videolarini YouTube'da "FolksDev" kanalinda bulabilirsiniz. Asagidaki linklerden canli yayin cozumlerine ulasabilirsiniz:
 
-- [Leetcode Algoritma ??z?mleri 1](https://www.youtube.com/live/kwXItW3UrE8?feature=share)
-- [Leetcode Algoritma ??z?mleri 2](https://www.youtube.com/live/O99hm-NZOCc?feature=share)
+- [Leetcode Algoritma Cozumleri 1](https://www.youtube.com/live/kwXItW3UrE8?feature=share)
+- [Leetcode Algoritma Cozumleri 2](https://www.youtube.com/live/O99hm-NZOCc?feature=share)
 
 ## How can I access the questions?
 
