@@ -1,5 +1,10 @@
 
-public class  {
+public class  MaxConsecutiveOnes_485_Easy{
+    public static void main(String[] args) {
+        int[] nums = {1, 1, 0, 1, 1, 1};
+        MaxConsecutiveOnes_485_Easy mco = new MaxConsecutiveOnes_485_Easy();
+        System.out.println(mco.findMaxConsecutiveOnes(nums));
+    }
 
     public int findMaxConsecutiveOnes(int[] nums) {
         if (nums == null || nums.length == 0) {
